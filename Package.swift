@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "PocketFFT",
-            targets: ["PocketFFT", "CPocketFFTSwift"]
+            targets: ["PocketFFT", "PocketFFTSwift"]
         )
     ],
     dependencies: [],
@@ -17,7 +17,7 @@ let package = Package(
             path: "Sources/ObjC"
         ),
         .target(
-            name: "CPocketFFTSwift",
+            name: "PocketFFTSwift",
             dependencies: ["PocketFFT"],
             path: "Sources/Swift"
         )
