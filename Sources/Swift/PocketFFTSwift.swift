@@ -1,1 +1,1 @@
-@_exported import PlainPocketFFT
+@_exported import PocketFFT
