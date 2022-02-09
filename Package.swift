@@ -18,7 +18,7 @@ let package = Package(
         ),
         .target(
             name: "PocketFFTSwift",
-            dependencies: ["PocketFFT"],
+            dependencies: ["OBJCPocketFFT"],
             path: "Sources/Swift"
         )
     ],
