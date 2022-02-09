@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "PocketFFTSwift",
+    name: "PocketFFT",
     products: [
         .library(
-            name: "PocketFFTSwift",
-            targets: ["OBJCPocketFFT", "PocketFFTSwift"]
+            name: "PocketFFT",
+            targets: ["OBJCPocketFFT", "PocketFFT"]
         )
     ],
     dependencies: [],
@@ -17,7 +17,7 @@ let package = Package(
             path: "Sources/ObjC"
         ),
         .target(
-            name: "PocketFFTSwift",
+            name: "PocketFFT",
             dependencies: ["OBJCPocketFFT"],
             path: "Sources/Swift"
         )
