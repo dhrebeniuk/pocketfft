@@ -21,6 +21,5 @@ let package = Package(
             dependencies: ["PocketFFT"],
             path: "Sources/Swift"
         )
-    ],
-    cxxLanguageStandard: .gnucxx1z
+    ]
 )
