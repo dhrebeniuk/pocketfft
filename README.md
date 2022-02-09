@@ -1,2 +1,2 @@
 # pocketfft
-pocketfft implementation or RosaKit
+Simple separated pocketfft version from scipy
