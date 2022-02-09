@@ -2,7 +2,7 @@
 #import "pocketfft.h"
 
 
-@implementation PlainPocketFFTRunner
+@implementation PocketFFTRunner
 
 + (int)execute_real_forward:(double *)a1 result:(double *)resultMatrix cols:(int)cols rows:(int)rows fct:(double)fct {
   return execute_real_forward(a1, resultMatrix, (npy_intp)cols, (npy_intp)rows, fct);
