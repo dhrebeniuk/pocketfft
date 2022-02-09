@@ -1,5 +1,4 @@
 #import <Foundation/Foundation.h>
-#import "cpocketfft.h"
 
 @interface PocketFFTRunner: NSObject
 

@@ -1,5 +1,5 @@
 #import "PocketFFTRunner.h"
-#import "cpocketfft.h"
+#import "pocketfft.h"
 
 
 @implementation PocketFFTRunner
